@@ -1,0 +1,8 @@
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Domain\bin\Debug\netcoreapp3.1\TicketPromotion.Domain.deps.json
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Domain\bin\Debug\netcoreapp3.1\TicketPromotion.Domain.dll
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Domain\bin\Debug\netcoreapp3.1\TicketPromotion.Domain.pdb
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Domain\obj\Debug\netcoreapp3.1\TicketPromotion.Domain.AssemblyInfoInputs.cache
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Domain\obj\Debug\netcoreapp3.1\TicketPromotion.Domain.AssemblyInfo.cs
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Domain\obj\Debug\netcoreapp3.1\TicketPromotion.Domain.csproj.CoreCompileInputs.cache
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Domain\obj\Debug\netcoreapp3.1\TicketPromotion.Domain.dll
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Domain\obj\Debug\netcoreapp3.1\TicketPromotion.Domain.pdb

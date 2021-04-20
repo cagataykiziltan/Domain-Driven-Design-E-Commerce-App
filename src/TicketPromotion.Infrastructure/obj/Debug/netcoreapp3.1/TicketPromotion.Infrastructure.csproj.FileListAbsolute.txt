@@ -1,0 +1,14 @@
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\bin\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.deps.json
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\bin\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.dll
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\bin\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.pdb
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\bin\Debug\netcoreapp3.1\TicketPromotion.Application.dll
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\bin\Debug\netcoreapp3.1\TicketPromotion.Domain.dll
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\bin\Debug\netcoreapp3.1\TicketPromotion.Application.pdb
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\bin\Debug\netcoreapp3.1\TicketPromotion.Domain.pdb
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\obj\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.csprojAssemblyReference.cache
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\obj\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\obj\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.AssemblyInfo.cs
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\obj\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\obj\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.csproj.CopyComplete
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\obj\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.dll
+C:\Users\26042028\Source\Repos\TicketPromotion\TicketPromotion.Infrastructure\obj\Debug\netcoreapp3.1\TicketPromotion.Infrastructure.pdb

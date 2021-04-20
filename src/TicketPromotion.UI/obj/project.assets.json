@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TicketPromotion.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "TicketPromotion.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TicketPromotion.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketPromotion.Application.dll": {}
+        }
+      },
+      "TicketPromotion.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TicketPromotion.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketPromotion.Domain.dll": {}
+        }
+      },
+      "TicketPromotion.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "TicketPromotion.Application": "1.0.0",
+          "TicketPromotion.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TicketPromotion.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketPromotion.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TicketPromotion.Application/1.0.0": {
+      "type": "project",
+      "path": "../TicketPromotion.Application/TicketPromotion.Application.csproj",
+      "msbuildProject": "../TicketPromotion.Application/TicketPromotion.Application.csproj"
+    },
+    "TicketPromotion.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TicketPromotion.Domain/TicketPromotion.Domain.csproj",
+      "msbuildProject": "../TicketPromotion.Domain/TicketPromotion.Domain.csproj"
+    },
+    "TicketPromotion.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TicketPromotion.Infrastructure/TicketPromotion.Infrastructure.csproj",
+      "msbuildProject": "../TicketPromotion.Infrastructure/TicketPromotion.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TicketPromotion.Application >= 1.0.0",
+      "TicketPromotion.Domain >= 1.0.0",
+      "TicketPromotion.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\src\\TicketPromotion.UI\\TicketPromotion.Presentation.csproj",
+      "projectName": "TicketPromotion.Presentation",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\src\\TicketPromotion.UI\\TicketPromotion.Presentation.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\src\\TicketPromotion.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\src\\TicketPromotion.Application\\TicketPromotion.Application.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\src\\TicketPromotion.Application\\TicketPromotion.Application.csproj"
+            },
+            "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\src\\TicketPromotion.Domain\\TicketPromotion.Domain.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\src\\TicketPromotion.Domain\\TicketPromotion.Domain.csproj"
+            },
+            "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\src\\TicketPromotion.Infrastructure\\TicketPromotion.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\src\\TicketPromotion.Infrastructure\\TicketPromotion.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

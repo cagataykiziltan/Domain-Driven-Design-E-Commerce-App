@@ -1,0 +1,75 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\test\\src\\TicketPromotion.Application\\TicketPromotion.Application.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\test\\TicketPromotion.Application.Tests\\TicketPromotion.Application.Tests.csproj",
+      "projectName": "TicketPromotion.Application.Tests",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\test\\TicketPromotion.Application.Tests\\TicketPromotion.Application.Tests.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\test\\TicketPromotion.Application.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\test\\src\\TicketPromotion.Application\\TicketPromotion.Application.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\test\\src\\TicketPromotion.Application\\TicketPromotion.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "'C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\test\\src\\TicketPromotion.Application\\TicketPromotion.Application.csproj' projesi bulunamadı. Proje başvurusunun geçerli olup olmadığını ve proje dosyasının mevcut olup olmadığını denetleyin.",
+      "libraryId": "C:\\Users\\LENOVO\\Desktop\\TicketPromotion\\test\\src\\TicketPromotion.Application\\TicketPromotion.Application.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
