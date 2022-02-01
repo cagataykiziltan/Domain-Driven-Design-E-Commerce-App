@@ -27,7 +27,7 @@ namespace TicketTypePromotion.UI.Controllers
             return Ok(promotionDto);
         }
 
-        [HttpGet("GetPromotionInfo/{promotionName}")]
+        [HttpGet("GetPromotionInfo/{campaignnName}")]
         [ProducesResponseType(typeof(HttpResponseObjectSuccess<CampaignDto>), (int)HttpStatusCode.OK),
          ProducesResponseType(typeof(HttpResponseObjectError<CampaignDto>), (int)HttpStatusCode.BadRequest)]
         public async Task<ActionResult<HttpResponseObject<CampaignDto>>> GetPromotionInfo(string campaignName)
