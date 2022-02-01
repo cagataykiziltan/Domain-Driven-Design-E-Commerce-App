@@ -10,23 +10,6 @@ namespace HepsiCampaign.Domain.Tests
     {
 
 
-        [Fact]
-        public void CampaignDomainCreate_GivenCorrectValues_CreatesUniqueDifferentEntities()
-        {
-            //Arrange
-            const string name = "sweetNovember";
-            const string productCode = "a123";
-            const int duration = 10;
-            const float priceManipulationLimit = 20;
-            const int targetSalesCount = 100;
-
-            //Act
-            var firstCampaign = Campaign.Create(name, duration, productCode, priceManipulationLimit, targetSalesCount);
-            var secondCampaign = Campaign.Create(name, duration, productCode, priceManipulationLimit, targetSalesCount);
-            
-            //Assert
-            Assert.NotEqual(firstCampaign.Id, secondCampaign.Id);
-        }
 
         [Theory]
         [InlineData(-1)]
@@ -321,6 +304,25 @@ namespace HepsiCampaign.Domain.Tests
             Assert.Equal(campaign.ProductCode, productCode);
             Assert.Equal(campaign.PriceManipulationLimit, priceManipulationLimit);
             Assert.Equal(campaign.TargetSalesCount, targetSalesCount);
+        }
+        
+        
+        [Fact]
+        public void CampaignDomainCreate_GivenCorrectValues_CreatesUniqueDifferentEntities()
+        {
+            //Arrange
+            const string name = "sweetNovember";
+            const string productCode = "a123";
+            const int duration = 10;
+            const float priceManipulationLimit = 20;
+            const int targetSalesCount = 100;
+
+            //Act
+            var firstCampaign = Campaign.Create(name, duration, productCode, priceManipulationLimit, targetSalesCount);
+            var secondCampaign = Campaign.Create(name, duration, productCode, priceManipulationLimit, targetSalesCount);
+            
+            //Assert
+            Assert.NotEqual(firstCampaign.Id, secondCampaign.Id);
         }
 
     }
