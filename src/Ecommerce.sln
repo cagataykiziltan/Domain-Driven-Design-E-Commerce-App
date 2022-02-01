@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Application", "HepsiCampaing.Application\Ecommerce.Application.csproj", "{6EB4A700-7322-43AF-8582-0869BD023B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Application", "Ecommerce.Application\Ecommerce.Application.csproj", "{6EB4A700-7322-43AF-8582-0869BD023B86}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Domain", "HepsiCampaing.Domain\Ecommerce.Domain.csproj", "{BFAE8F5F-7CA1-4FF9-A29D-96FBA264D710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Domain", "Ecommerce.Domain\Ecommerce.Domain.csproj", "{BFAE8F5F-7CA1-4FF9-A29D-96FBA264D710}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Infrastructure", "HepsiCampaing.Infrastructure\Ecommerce.Infrastructure.csproj", "{6946D6BA-34FF-4C36-BC2E-E6EE3887EA61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Infrastructure", "Ecommerce.Infrastructure\Ecommerce.Infrastructure.csproj", "{6946D6BA-34FF-4C36-BC2E-E6EE3887EA61}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F4BB25BD-E62A-413A-984B-961941113BFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A65671C9-26B7-49F1-B1CD-1A0861243BB3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Domain.Tests", "HepsiCampaign.Domain.Tests\Ecommerce.Domain.Tests.csproj", "{44D2A193-2223-4008-8B3E-79CC7D06074D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Domain.Tests", "Ecommerce.Domain.Tests\Ecommerce.Domain.Tests.csproj", "{44D2A193-2223-4008-8B3E-79CC7D06074D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Application.Tests", "HepsiCampaign.Application.Tests\Ecommerce.Application.Tests.csproj", "{7FB4D18E-8A36-4848-BDDF-F0A10B296695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Application.Tests", "Ecommerce.Application.Tests\Ecommerce.Application.Tests.csproj", "{7FB4D18E-8A36-4848-BDDF-F0A10B296695}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.UI", "Ecommerce.UI\Ecommerce.UI.csproj", "{E614467D-AA63-4AC6-96A6-17993544D4F8}"
 EndProject
