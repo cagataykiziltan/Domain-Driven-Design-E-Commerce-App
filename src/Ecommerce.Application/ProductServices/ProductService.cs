@@ -21,7 +21,7 @@ namespace Ecommence.Application.ProductServices
         }
 
         [LoggerAspect]
-        [TransactionAspect]
+        //[TransactionAspect]
         public async Task<ProductDto> CreateProduct(ProductDto productDto)
         {
             if (productDto == null)
