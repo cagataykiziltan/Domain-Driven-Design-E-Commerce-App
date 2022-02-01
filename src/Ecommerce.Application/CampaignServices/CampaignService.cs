@@ -21,7 +21,7 @@ namespace Ecommence.Application.CampaignServices
         }
 
         [LoggerAspect]
-        [TransactionAspect]
+        //[TransactionAspect]
         public async Task<CampaignDto> CreateCampaign(CampaignDto campaignDto)
         {
             if (campaignDto == null)
