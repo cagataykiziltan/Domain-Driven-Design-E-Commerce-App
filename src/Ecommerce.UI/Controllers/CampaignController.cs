@@ -11,6 +11,7 @@ namespace TicketTypePromotion.UI.Controllers
     public class CampaignController : ControllerBase
     {
         private readonly ICampaignService _campaignService;
+        
         public CampaignController(ICampaignService campaignService)
         {
             _campaignService = campaignService;
