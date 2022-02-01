@@ -19,7 +19,7 @@ namespace Ecommence.Application.OrderServices
 
 
         [LoggerAspect]
-        [TransactionAspect]
+        //[TransactionAspect]
         public async Task<OrderDto> CreateOrder(OrderDto orderDto)
         {
             if (orderDto == null)
