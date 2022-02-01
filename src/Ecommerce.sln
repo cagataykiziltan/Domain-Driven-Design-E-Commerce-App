@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F4BB25BD-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A65671C9-26B7-49F1-B1CD-1A0861243BB3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Domain.Tests", "Ecommerce.Domain.Tests\Ecommerce.Domain.Tests.csproj", "{44D2A193-2223-4008-8B3E-79CC7D06074D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Domain.Tests", "..\test\Ecommerce.Domain.Tests\Ecommerce.Domain.Tests.csproj", "{44D2A193-2223-4008-8B3E-79CC7D06074D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Application.Tests", "Ecommerce.Application.Tests\Ecommerce.Application.Tests.csproj", "{7FB4D18E-8A36-4848-BDDF-F0A10B296695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Application.Tests", "..\test\Ecommerce.Application.Tests\Ecommerce.Application.Tests.csproj", "{7FB4D18E-8A36-4848-BDDF-F0A10B296695}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.UI", "Ecommerce.UI\Ecommerce.UI.csproj", "{E614467D-AA63-4AC6-96A6-17993544D4F8}"
 EndProject
