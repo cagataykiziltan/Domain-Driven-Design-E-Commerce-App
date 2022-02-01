@@ -8,27 +8,6 @@ namespace HepsiCampaign.Domain.Tests
 {
     public class CampaignTest
     {
-        [Fact]
-        public void CampaignDomainCreate_GivenCorrectValues_CreatesCorrectOrder()
-        {
-            //Arrange
-            const string name = "sweetNovember";
-            const string productCode = "a123";
-            const int duration = 10;
-            const float priceManipulationLimit = 20;
-            const int targetSalesCount = 100;
-
-
-            //Act
-            var campaign = Campaign.Create(name, duration, productCode, priceManipulationLimit, targetSalesCount);
-
-            //Assert
-            Assert.Equal(campaign.Name, name);
-            Assert.Equal(campaign.Duration, duration);
-            Assert.Equal(campaign.ProductCode, productCode);
-            Assert.Equal(campaign.PriceManipulationLimit, priceManipulationLimit);
-            Assert.Equal(campaign.TargetSalesCount, targetSalesCount);
-        }
 
 
         [Fact]
@@ -44,6 +23,7 @@ namespace HepsiCampaign.Domain.Tests
             //Act
             var firstCampaign = Campaign.Create(name, duration, productCode, priceManipulationLimit, targetSalesCount);
             var secondCampaign = Campaign.Create(name, duration, productCode, priceManipulationLimit, targetSalesCount);
+            
             //Assert
             Assert.NotEqual(firstCampaign.Id, secondCampaign.Id);
         }
@@ -156,10 +136,6 @@ namespace HepsiCampaign.Domain.Tests
 
             //Act
             campaign.SetAveragePriceValue(averagePriceValue);
-
-           // var xxx = GetCampaign();
-           // MockSalesAreSoGood(xxx,true);
-           //var x = xxx.Object.SalesAreSoGood();
 
             //Assert
             Assert.Equal(campaign.AveragePriceValue, averagePriceValue);
@@ -322,6 +298,29 @@ namespace HepsiCampaign.Domain.Tests
 
             //Assert
             Assert.Equal(55, campaign.TurnOver);
+        }
+        
+        
+        [Fact]
+        public void CampaignDomainCreate_GivenCorrectValues_CreatesCorrectOrder()
+        {
+            //Arrange
+            const string name = "sweetNovember";
+            const string productCode = "a123";
+            const int duration = 10;
+            const float priceManipulationLimit = 20;
+            const int targetSalesCount = 100;
+
+
+            //Act
+            var campaign = Campaign.Create(name, duration, productCode, priceManipulationLimit, targetSalesCount);
+
+            //Assert
+            Assert.Equal(campaign.Name, name);
+            Assert.Equal(campaign.Duration, duration);
+            Assert.Equal(campaign.ProductCode, productCode);
+            Assert.Equal(campaign.PriceManipulationLimit, priceManipulationLimit);
+            Assert.Equal(campaign.TargetSalesCount, targetSalesCount);
         }
 
     }
