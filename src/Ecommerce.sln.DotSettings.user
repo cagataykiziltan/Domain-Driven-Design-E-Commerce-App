@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=10b36e35_002Dd50e_002D45ff_002D8afb_002Dd374c305c5cb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="OrderDomainCreate_WithNegativePrice_ThrowsException" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::44D2A193-2223-4008-8B3E-79CC7D06074D::.NETCoreApp,Version=v2.2::HepsiCampaign.Domain.Tests.OrderTests.OrderDomainCreate_WithNegativePrice_ThrowsException&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=60d17f5d_002Dac17_002D4730_002Da794_002D7045380145b1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DecreaseStockQuantityByQuantity_WithCorrectValue_DecreasesCorrectly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::44D2A193-2223-4008-8B3E-79CC7D06074D::.NETCoreApp,Version=v2.2::HepsiCampaign.Domain.Tests.ProductTests.DecreaseStockQuantityByQuantity_WithCorrectValue_DecreasesCorrectly&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::44D2A193-2223-4008-8B3E-79CC7D06074D::.NETCoreApp,Version=v2.2::HepsiCampaign.Domain.Tests.CampaignTests.SetAveragePriceValue_WithCorrectValues_CorrectResult&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::44D2A193-2223-4008-8B3E-79CC7D06074D::.NETCoreApp,Version=v2.2::HepsiCampaign.Domain.Tests.CampaignTests.IncreaseCampaignSalesCountByQuantity_WithWrongValues_ThrowsException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::7FB4D18E-8A36-4848-BDDF-F0A10B296695::.NETCoreApp,Version=v2.2::HepsiCampaign.Application.Tests.ProductServiceTests.CreateProduct_WithValidParameters_ShouldReturnMyObjectWithoutManipulating&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::7FB4D18E-8A36-4848-BDDF-F0A10B296695::.NETCoreApp,Version=v2.2::HepsiCampaign.Application.Tests.CampaignServiceTests.GetCampaignByName_WithExistingOrderList_CalculatesAveragePriceValue&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

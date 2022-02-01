@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.deps.json
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.runtimeconfig.json
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.pdb
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\HepsiCampaing.Domain.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\bin\Debug\netcoreapp2.2\HepsiCampaing.Domain.pdb
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\obj\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\obj\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\obj\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\obj\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\obj\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\obj\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Domain.Tests\obj\Debug\netcoreapp2.2\HepsiCampaign.Domain.Tests.pdb

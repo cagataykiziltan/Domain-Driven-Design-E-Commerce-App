@@ -1,0 +1,5 @@
+D:\ResearchCenter\DDD\Proje\HepsiBuradaCaseCalismasi\HepsiCampaing\HepsiCampaign.Application.Tests\obj\Debug\netcoreapp2.2\Ecommerce.Application.Tests.csproj.AssemblyReference.cache
+D:\ResearchCenter\DDD\Proje\HepsiBuradaCaseCalismasi\HepsiCampaing\HepsiCampaign.Application.Tests\obj\Debug\netcoreapp2.2\Ecommerce.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\ResearchCenter\DDD\Proje\HepsiBuradaCaseCalismasi\HepsiCampaing\HepsiCampaign.Application.Tests\obj\Debug\netcoreapp2.2\Ecommerce.Application.Tests.AssemblyInfoInputs.cache
+D:\ResearchCenter\DDD\Proje\HepsiBuradaCaseCalismasi\HepsiCampaing\HepsiCampaign.Application.Tests\obj\Debug\netcoreapp2.2\Ecommerce.Application.Tests.AssemblyInfo.cs
+D:\ResearchCenter\DDD\Proje\HepsiBuradaCaseCalismasi\HepsiCampaing\HepsiCampaign.Application.Tests\obj\Debug\netcoreapp2.2\Ecommerce.Application.Tests.csproj.CoreCompileInputs.cache

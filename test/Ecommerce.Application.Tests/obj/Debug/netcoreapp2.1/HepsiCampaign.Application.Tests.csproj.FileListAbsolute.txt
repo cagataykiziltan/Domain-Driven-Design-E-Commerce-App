@@ -1,0 +1,11 @@
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\bin\Debug\netcoreapp2.1\HepsiCampaign.Application.Tests.deps.json
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\bin\Debug\netcoreapp2.1\HepsiCampaign.Application.Tests.runtimeconfig.json
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\bin\Debug\netcoreapp2.1\HepsiCampaign.Application.Tests.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\bin\Debug\netcoreapp2.1\HepsiCampaign.Application.Tests.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\obj\Debug\netcoreapp2.1\HepsiCampaign.Application.Tests.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\obj\Debug\netcoreapp2.1\HepsiCampaign.Application.Tests.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\obj\Debug\netcoreapp2.1\HepsiCampaign.Application.Tests.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaign.Application.Tests\obj\Debug\netcoreapp2.1\HepsiCampaign.Application.Tests.AssemblyInfo.cs

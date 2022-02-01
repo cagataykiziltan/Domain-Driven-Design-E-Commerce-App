@@ -1,0 +1,148 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "c7e088ea6339a2f1c71b685c0e1530a2d57a381c"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "HepsiCampaing.Infrastructure/1.0.0": {
+        "dependencies": {
+          "HepsiCampaing.Application": "1.0.0",
+          "HepsiCampaing.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HepsiCampaing.Infrastructure.dll": {}
+        }
+      },
+      "AutoMapper/10.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.1.0"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Fody/6.0.5": {},
+      "MethodBoundaryAspect.Fody/2.0.139": {
+        "dependencies": {
+          "Fody": "6.0.5"
+        },
+        "runtime": {
+          "lib/netstandard1.0/MethodBoundaryAspect.dll": {
+            "assemblyVersion": "2.0.139.0",
+            "fileVersion": "2.0.139.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "HepsiCampaing.Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "HepsiCampaing.Domain": "1.0.0",
+          "MethodBoundaryAspect.Fody": "2.0.139"
+        },
+        "runtime": {
+          "HepsiCampaing.Application.dll": {}
+        }
+      },
+      "HepsiCampaing.Domain/1.0.0": {
+        "runtime": {
+          "HepsiCampaing.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HepsiCampaing.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/10.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "path": "automapper/10.1.1",
+      "hashPath": "automapper.10.1.1.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
+    },
+    "Fody/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xfz4NwIIPs2xtfvpPlXz49cHYPeWBl/bnvlpW6OSpxKFAujAm7vLQ8Ma7aX3GYVjc/czn5+58QNUnDyb4gxiKA==",
+      "path": "fody/6.0.5",
+      "hashPath": "fody.6.0.5.nupkg.sha512"
+    },
+    "MethodBoundaryAspect.Fody/2.0.139": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CyNf4/inMb7c2/2IG7/jDOpwgFs2PvyOpS3rqaVT+XvLwJVh7a58ikjbOfj3qzgZN30ETXhHKeg6ajfiu12ohA==",
+      "path": "methodboundaryaspect.fody/2.0.139",
+      "hashPath": "methodboundaryaspect.fody.2.0.139.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "HepsiCampaing.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HepsiCampaing.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

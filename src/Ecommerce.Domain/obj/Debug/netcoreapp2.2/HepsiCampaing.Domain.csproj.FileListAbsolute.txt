@@ -1,0 +1,9 @@
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaing.Domain\bin\Debug\netcoreapp2.2\HepsiCampaing.Domain.deps.json
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaing.Domain\bin\Debug\netcoreapp2.2\HepsiCampaing.Domain.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaing.Domain\bin\Debug\netcoreapp2.2\HepsiCampaing.Domain.pdb
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaing.Domain\obj\Debug\netcoreapp2.2\HepsiCampaing.Domain.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaing.Domain\obj\Debug\netcoreapp2.2\HepsiCampaing.Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaing.Domain\obj\Debug\netcoreapp2.2\HepsiCampaing.Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaing.Domain\obj\Debug\netcoreapp2.2\HepsiCampaing.Domain.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaing.Domain\obj\Debug\netcoreapp2.2\HepsiCampaing.Domain.dll
+C:\Users\LENOVO\source\repos\HepsiCampaing\HepsiCampaing.Domain\obj\Debug\netcoreapp2.2\HepsiCampaing.Domain.pdb
