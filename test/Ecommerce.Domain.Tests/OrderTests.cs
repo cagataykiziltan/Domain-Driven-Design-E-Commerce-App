@@ -8,24 +8,6 @@ namespace HepsiCampaign.Domain.Tests
     {
         #region Order
 
-        [Fact]
-        public void OrderDomainCreate_WithGivenCorrectValues_CreatesCorrectOrder()
-        {
-            //Arrange
-            const string productCode = "A1234";
-            const int price = 5;
-            const int quantity = 5;
-            string appliedCampaignName = "opportunity";
-
-            //Act
-            var order = Order.Create(productCode, price, appliedCampaignName, quantity);
-
-            //Assert
-            Assert.Equal(productCode, order.Product.ProductCode);
-            Assert.Equal(price, order.Product.Price);
-            Assert.Equal(appliedCampaignName, order.Product.AppliedCampaign);
-            Assert.Equal(quantity, order.Quantity);
-        }
 
         [Fact]
         public void OrderDomainCreate_WithGivenWithSameValues_CreatesUniqueDifferentEntities()
@@ -165,6 +147,25 @@ namespace HepsiCampaign.Domain.Tests
             Assert.Equal(MessageConstants.PromotedPriceError, actualException.Message);
         }
 
+        
+        [Fact]
+        public void OrderDomainCreate_WithGivenCorrectValues_CreatesCorrectOrder()
+        {
+            //Arrange
+            const string productCode = "A1234";
+            const int price = 5;
+            const int quantity = 5;
+            string appliedCampaignName = "opportunity";
+
+            //Act
+            var order = Order.Create(productCode, price, appliedCampaignName, quantity);
+
+            //Assert
+            Assert.Equal(productCode, order.Product.ProductCode);
+            Assert.Equal(price, order.Product.Price);
+            Assert.Equal(appliedCampaignName, order.Product.AppliedCampaign);
+            Assert.Equal(quantity, order.Quantity);
+        }
 
         #endregion
     }
