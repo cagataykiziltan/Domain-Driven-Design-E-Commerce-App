@@ -20,7 +20,7 @@ namespace TicketTypePromotion.UI.Controllers
         [HttpPost("CreateCampaign")]
         [ProducesResponseType(typeof(HttpResponseObjectSuccess<CampaignDto>), (int)HttpStatusCode.OK),
          ProducesResponseType(typeof(HttpResponseObjectError<CampaignDto>), (int)HttpStatusCode.BadRequest)]
-        public async Task<ActionResult<HttpResponseObject<CampaignDto>>> CreatePromotion(CampaignDto campaign)
+        public async Task<ActionResult<HttpResponseObject<CampaignDto>>> CreateCampaign(CampaignDto campaign)
         {
             var promotionDto = await _campaignService.CreateCampaign(campaign);
           
