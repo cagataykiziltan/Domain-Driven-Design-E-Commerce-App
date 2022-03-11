@@ -19,9 +19,9 @@ namespace TicketTypePromotion.UI.Controllers
         [HttpPost("CreateProduct")]
         [ProducesResponseType(typeof(HttpResponseObjectSuccess<ProductDto>), (int)HttpStatusCode.OK),
          ProducesResponseType(typeof(HttpResponseObjectError<ProductDto>), (int)HttpStatusCode.BadRequest)]
-        public async Task<ActionResult<HttpResponseObject<ProductDto>>> CreateProduct(ProductDto product)
+        public async Task<ActionResult<HttpResponseObject<ProductDto>>> CreateProduct(HttpRequestObject<ProductDto> product)
         {
-           var ticketTypeDto = await _productService.CreateProduct(product);
+           var ticketTypeDto = await _productService.CreateProduct(product.Items.First());
            
             return Ok(ticketTypeDto);
         }
@@ -29,9 +29,9 @@ namespace TicketTypePromotion.UI.Controllers
         [HttpGet("GetProductInfo/{ticketTypeName}")]
         [ProducesResponseType(typeof(HttpResponseObjectSuccess<ProductDto>), (int)HttpStatusCode.OK),
          ProducesResponseType(typeof(HttpResponseObjectError<ProductDto>), (int)HttpStatusCode.BadRequest)]
-        public async Task<ActionResult<HttpResponseObject<ProductDto>>> GetProductInfo(string productName)
+        public async Task<ActionResult<HttpResponseObject<ProductDto>>> GetProductInfo(HttpRequestObject<string> productName)
         {
-            var ticketDto = await _productService.GetProduct(productName);
+            var ticketDto = await _productService.GetProduct(productName.Items.First());
 
             return Ok(ticketDto);
         }
