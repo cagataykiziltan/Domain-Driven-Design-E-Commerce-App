@@ -21,9 +21,9 @@ namespace TicketTypePromotion.UI.Controllers
         [HttpPost("CreateCampaign")]
         [ProducesResponseType(typeof(HttpResponseObjectSuccess<CampaignDto>), (int)HttpStatusCode.OK),
          ProducesResponseType(typeof(HttpResponseObjectError<CampaignDto>), (int)HttpStatusCode.BadRequest)]
-        public async Task<ActionResult<HttpResponseObject<CampaignDto>>> CreateCampaign(CampaignDto campaign)
+        public async Task<ActionResult<HttpResponseObject<CampaignDto>>> CreateCampaign(HttpRequestObject<CampaignDto> campaign)
         {
-            var promotionDto = await _campaignService.CreateCampaign(campaign);
+            var promotionDto = await _campaignService.CreateCampaign(campaign.Items.First());
           
             return Ok(promotionDto);
         }
@@ -31,9 +31,9 @@ namespace TicketTypePromotion.UI.Controllers
         [HttpGet("GetPromotionInfo/{campaignnName}")]
         [ProducesResponseType(typeof(HttpResponseObjectSuccess<CampaignDto>), (int)HttpStatusCode.OK),
          ProducesResponseType(typeof(HttpResponseObjectError<CampaignDto>), (int)HttpStatusCode.BadRequest)]
-        public async Task<ActionResult<HttpResponseObject<CampaignDto>>> GetPromotionInfo(string campaignName)
+        public async Task<ActionResult<HttpResponseObject<CampaignDto>>> GetPromotionInfo(HttpRequestObject<string> campaignName)
         {
-            var promotionDto = await _campaignService.GetCampaignByName(campaignName);
+            var promotionDto = await _campaignService.GetCampaignByName(campaignName.Items.First());
 
             return Ok(promotionDto);
         }
