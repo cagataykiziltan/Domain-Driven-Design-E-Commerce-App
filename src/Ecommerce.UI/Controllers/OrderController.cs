@@ -19,9 +19,9 @@ namespace TicketTypePromotion.UI.Controllers
         [HttpPost("CreateOrder")]
         [ProducesResponseType(typeof(HttpResponseObjectSuccess<OrderDto>), (int)HttpStatusCode.OK),
          ProducesResponseType(typeof(HttpResponseObjectError<OrderDto>), (int)HttpStatusCode.BadRequest)]
-        public async Task<ActionResult<HttpResponseObject<OrderDto>>> CreateOrder(OrderDto order)
+        public async Task<ActionResult<HttpResponseObject<OrderDto>>> CreateOrder(HttpRequestObject<OrderDto> order)
         {
-            var reservationDto = await _orderService.CreateOrder(order);
+            var reservationDto = await _orderService.CreateOrder(order.Items.First());
 
             return Ok(reservationDto);
         }
